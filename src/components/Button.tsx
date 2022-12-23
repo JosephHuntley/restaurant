@@ -5,13 +5,10 @@ type props = {
 	children?: ReactNode;
 };
 const Button = ({ styles, children }: props) => {
-	{
-		/* Button Responsiveness on smaller devices */
-	}
 	return (
 		<button
 			type='button'
-			className={`py-4 px-6  text-white rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm md:w-[167px] h-[64px] justify-center ${styles}`}
+			className={` font-davidLibre font-medium font-size-[16px] py-4 px-8 text-white bg-black rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm ${styles}`}
 			style={{ boxShadow: '0px 15px 30px rgba(0, 0, 0, 0.15)' }}>
 			{children}
 		</button>

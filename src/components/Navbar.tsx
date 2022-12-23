@@ -1,6 +1,6 @@
 import Button from './Button';
 import { navLinks } from '../constants';
-import { logo } from '../assets';
+import { logo, circleText } from '../assets';
 
 import NavMenu from './NavMenu';
 
@@ -25,15 +25,22 @@ function Navbar() {
 					</li>
 				))}
 			</ul>
-			<Button styles='bg-primary md:flex hidden font-medium font-size-[20px] leading-7 font-davidLibre'>
+			<Button styles='bg-primary md:flex hidden font-size-[20px] leading-7 '>
 				Book a table
 			</Button>
 			<NavMenu />
 
-			{/* Rounded lines surrounding logo */}
+			{/* Rounded lines surrounding logo (Eclipses) */}
 			<div className='left-[-548px] top-[-452px] circle rounded-full md:flex ' />
 			<div className='left-[-604px] top-[-353.84px] circle rounded-full rotate-[17.41deg]' />
 			<div className='left-[-450px] top-[-428px] circle rounded-full' />
+
+			{/* Text Circle*/}
+			<img
+				src={circleText}
+				alt='Foods Delicious'
+				className='absolute md:flex hidden w-[104px] h-[104px] top-[275px] left-[119px]'
+			/>
 		</nav>
 	);
 }
