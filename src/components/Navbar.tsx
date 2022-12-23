@@ -25,7 +25,7 @@ function Navbar() {
 					</li>
 				))}
 			</ul>
-			<Button styles='bg-primary md:flex hidden font-size-[20px] leading-7 '>
+			<Button styles='bg-primary md:flex hidden leading-7 max-w-[167px]'>
 				Book a table
 			</Button>
 			<NavMenu />

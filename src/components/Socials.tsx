@@ -10,6 +10,7 @@ function Socials({ styles }: props) {
 		<div className={`flex-row flex ${styles}`}>
 			{socials.map((social, index) => (
 				<div
+					key={social}
 					className={`border-secondary border-[1px] border-solid rounded-full w-[45px] h-[45px] cursor-pointer  ${
 						index === socials.length - 1 ? 'mr-0' : 'mr-3'
 					}`}>
