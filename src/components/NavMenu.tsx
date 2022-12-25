@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { navLinks } from '../constants';
 import Hamburger from 'hamburger-react';
-import Button from './Button';
+import Button from './reusable/Button';
 
 function NavMenu() {
 	const [toggleMenu, setToggleMenu] = useState(false);

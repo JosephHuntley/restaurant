@@ -1,6 +1,7 @@
 import { Restaurant, TopLeft, TopRight, BottomRight, Dish } from '../assets';
-import Button from './Button';
-import Socials from './Socials';
+import Button from './reusable/Button';
+import Socials from './reusable/Socials';
+import styles from '../styles';
 
 function Hero() {
 	return (
@@ -9,15 +10,18 @@ function Hero() {
 			className='md:flex-row flex-col flex py-3 md:pt-[225px] md:px-[125px] px-8 justify-center md:items-start items-center '>
 			{/*=========== Left Side ===============*/}
 			<div className='flex-1 flex-col xl:px-0 md:pr-16 md:mt-[100px] mt-16 '>
-				<h1 className='font-davidLibre font-bold md:text-[70px] text-[50px] md:leading-[72px] max-w-[510px]'>
+				<h1
+					className={`${styles.heading} md:text-[70px] text-[50px] max-w-[510px] `}>
 					We provide the best food for you
 				</h1>
-				<p className='md:pt-16 pt-6 font-normal font-davidLibre text-grey text-base leading-[29px] max-w-[376px]'>
+				<p className={`${styles.paragraph} md:pt-16 pt-6  max-w-[376px]`}>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua.
 				</p>
 				<div className='md:py-10 pt-8 flex flex-row '>
-					<Button styles=' mr-8 max-w-[120px] max-h-[54px]'>Menu</Button>
+					<Button styles='bg-black mr-8 max-w-[120px] max-h-[54px]'>
+						Menu
+					</Button>
 					<Button styles='bg-primary z-10 max-w-[167px] max-h-[54px]'>
 						Book a table
 					</Button>
@@ -36,12 +40,12 @@ function Hero() {
 					alt='Dining Room'
 				/>
 				<img
-					className=' z-0 top-[-75px] left-[-150px] absolute'
+					className={`${styles.artWork} top-[-75px] left-[-150px] absolute`}
 					src={TopLeft}
 					alt='Leaf Artwork'
 				/>
 				<img
-					className='z-0 top-[-115px] right-[-100px] absolute'
+					className={`${styles.artWork}  top-[-115px] right-[-100px] absolute`}
 					src={TopRight}
 					alt='Leaf Artwork'
 				/>
@@ -51,7 +55,7 @@ function Hero() {
 					alt='Dish'
 				/>
 				<img
-					className=' z-0 md:bottom-[10px] bottom-[-150px] md:rotate-0 rotate-90 right-[-140px] absolute '
+					className={`${styles.artWork}  md:bottom-[10px] bottom-[-150px] md:rotate-0 rotate-90 right-[-140px] absolute `}
 					src={BottomRight}
 					alt='Leaf Artwork'
 				/>

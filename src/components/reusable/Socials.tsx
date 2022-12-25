@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram } from '../assets';
+import { Facebook, Twitter, Instagram } from '../../assets';
 
 type props = {
 	styles?: string;

@@ -4,6 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--background: rgba(16, 26, 36, 0.05);
+}
+::-webkit-scrollbar {
+	display: none;
+}
+body {
+	background-color: var(--background);
+}
 .logo {
 	width: 198px;
 	height: 55px;

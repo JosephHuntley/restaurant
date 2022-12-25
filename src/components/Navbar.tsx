@@ -1,4 +1,4 @@
-import Button from './Button';
+import Button from './reusable/Button';
 import { navLinks } from '../constants';
 import { logo, circleText } from '../assets';
 
