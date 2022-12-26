@@ -12,7 +12,7 @@ function DishCard({ title, desc, index, img, price }: props) {
 	return (
 		<div
 			className={`mt-32 w-[265px] h-[309px] border-2 border-white border-solid rounded-bl-xl rounded-tr-xl rounded-tl-[2rem] rounded-br-[2rem]  rounded-tr-md rounded-bl-md  flex flex-col text-center hover:bg-white z-20 ${
-				index ? 'mr-0' : 'mr-7'
+				index ? 'mr-0' : 'sm:mr-7'
 			}`}>
 			<div className='top-[-100px] left-[10px] relative'>
 				<img

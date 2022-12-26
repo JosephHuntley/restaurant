@@ -3,7 +3,7 @@ import DishCard from './DishCard';
 
 function Dishes() {
 	return (
-		<div className='flex flex-row justify-center'>
+		<div className='flex flex-row flex-wrap justify-center'>
 			{dishes.map(({ id, title, desc, img, price }, index) => (
 				<DishCard
 					key={id}

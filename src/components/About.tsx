@@ -20,30 +20,31 @@ function About() {
 	return (
 		<section
 			id='about'
-			className='flex flex-col justify-center bg-dimWhite/[0.07] pb-64 mt-24 justify-center  text-center px-8 '>
+			className='flex flex-col justify-center bg-dimWhite/[0.07] pb-64 mt-24 justify-center text-center px-8 '>
 			<div className=''>
 				<div className='mt-16 flex flex-col justify center'>
-					<h1 className={`md:text-[60px] leading-[65px] ${styles.heading} `}>
+					<h1
+						className={`md:text-[60px] text-[30px] leading-[65px] ${styles.heading} `}>
 						Our Special Dishes
 					</h1>
 					<p
-						className={`${styles.paragraph} place-self-center mt-5 max-w-[376px] `}>
+						className={`${styles.paragraph} text-[16px] place-self-center mt-5 max-w-[376px] `}>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt
 					</p>
 					<img
-						className={`${styles.artWork} max-h-[212px] max-w-[224px] absolute left-[278px] top-[1180px]`}
+						className={`${styles.artWork} max-h-[212px] max-w-[224px] absolute sm:left-[278px] left-[-100px] sm:top-[1180px] top-[1400px]`}
 						src={TopRight}
 						alt='Leaf Artwork'
 					/>
 					<img
-						className={`${styles.artWork} max-h-[257px] max-w-[180px] absolute left-[945px] top-[1180px]`}
+						className={`${styles.artWork} max-h-[257px] max-w-[180px] absolute sm:left-[945px] left-[325px] sm:top-[1180px] top-[1375px]`}
 						src={BottomRight}
 						alt='Leaf Artwork'
 					/>
 				</div>
 				<Dishes />
-				<div className='flex-row flex h-0'>
+				<div className='flex-row md:flex h-0 hidden'>
 					<img
 						src={onion}
 						alt='Onion'
@@ -67,9 +68,9 @@ function About() {
 				</div>
 			</div>
 
-			<div className='flex flex-row justify-center mt-36 '>
+			<div className='flex md:flex-row justify-center md:mt-36 '>
 				<div className=' '>
-					<div className='flex flex-row h-0'>
+					<div className='flex-row h-0 md:flex hidden'>
 						<img
 							src={leaf1}
 							alt=''
@@ -93,27 +94,28 @@ function About() {
 						/>
 					</div>
 					<img
-						className='max-w-[719px] max-h-[667px] mr-24'
+						className='max-w-[719px] max-h-[667px] mr-24 md:flex hidden'
 						src={mainDish}
 						alt='Main Dish'
 					/>
 				</div>
 
-				<div className=''>
+				<div className='flex flex-col'>
 					<img
 						src={TopRight}
 						alt='Leaf Artwork'
-						className={`${styles.artWork} w-[224px] h-[212px] relative top-[100px] left-[-50px]`}
+						className={`${styles.artWork} w-[224px] h-[212px] relative sm:top-[100px] top-[200px] sm:left-[-50px] left-[50px]`}
 					/>
 					<h1
-						className={` ${styles.heading} text-[60px] leading-[65px] max-w-[480px] font-bold text-start`}>
+						className={` ${styles.heading} text-[60px] leading-[65px] md:max-w-[480px] font-bold md:text-start text-center`}>
 						Welcome to Our Restaurant
 					</h1>
-					<p className={`${styles.paragraph} mt-8 max-w-[376px] text-start`}>
+					<p
+						className={`${styles.paragraph} mt-8 md:max-w-[376px] max-w-[500px] md:text-start text-center md:self-start self-center`}>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua.
 					</p>
-					<div className='md:py-10 pt-8 flex flex-row '>
+					<div className='md:py-10 pt-8 flex flex-row md:self-start self-center'>
 						<Button styles='bg-black mr-8 max-w-[120px] max-h-[54px]'>
 							Menu
 						</Button>
@@ -121,7 +123,7 @@ function About() {
 							Book a table
 						</Button>
 					</div>
-					<div className='flex flex-row h-0 mb-16'>
+					<div className='md:flex flex-row h-0 mb-16 hidden '>
 						<img
 							src={herbs2}
 							alt='Herbs'
