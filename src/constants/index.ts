@@ -58,3 +58,17 @@ export const dishes: {
 		price: price,
 	},
 ];
+
+export const chefFacts: { id: number; message: string }[] = [
+	{ id: 1, message: 'Lorem ipsum dolor sit amet, consectetur' },
+
+	{ id: 2, message: 'Lorem ipsum dolor sit amet, consectetur' },
+
+	{ id: 3, message: 'Lorem ipsum dolor sit amet, consectetur' },
+
+	{ id: 4, message: 'Lorem ipsum dolor sit amet, consectetur' },
+
+	{ id: 5, message: 'Lorem ipsum dolor sit amet, consectetur' },
+
+	{ id: 6, message: 'Lorem ipsum dolor sit amet, consectetur' },
+];

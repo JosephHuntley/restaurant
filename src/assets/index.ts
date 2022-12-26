@@ -23,6 +23,8 @@ import leaf2 from './leaf-2.png';
 import leaf3 from './leaf-3.png';
 import leaf4 from './leaf-4.png';
 import herbs2 from './herbs2.svg';
+import chef from './Chef.svg';
+import checkMark from './checkMark.svg';
 export {
 	logo,
 	circleText,
@@ -49,4 +51,6 @@ export {
 	leaf2,
 	leaf3,
 	leaf4,
+	chef,
+	checkMark,
 };
