@@ -5,16 +5,16 @@ import { chefFacts } from '../constants';
 
 function Chef() {
 	return (
-		<section className='flex sm:flex-row flex-col sm:py-24 py-16 justify-center'>
-			<div className='flex flex-col sm:mt-32 mr-16'>
+		<section className='flex sm:flex-row flex-col py-24 justify-center'>
+			<div className='flex flex-col sm:mt-32 sm:mr-16t'>
 				<div className='flex flex-row h-0'>
 					<img
-						className={`${styles.artWork} w-[190px] h-[172px] relative top-[-75px] left-[-250px]`}
+						className={`${styles.artWork} w-[190px] h-[172px] relative top-[-75px] left-[-250px] sm:flex hidden`}
 						src={garlicClove}
 						alt='Garlic Clove'
 					/>
 					<img
-						className='w-[290px] h-[303px] relative top-[-160px] left-[-240px]'
+						className='w-[290px] h-[303px] relative sm:top-[-160px] top-[-100px] sm:left-[-240px] left-[150px] '
 						src={garlic}
 						alt='Garlic'
 					/>
@@ -29,23 +29,25 @@ function Chef() {
 					eiusmod tempor incididunt ut labore et dolore magna aliqua.
 				</p>
 				<div>
-					<ul className='columns-2 my-5'>
-						{chefFacts.map(({ id, message }) => (
-							<li key={id}>
-								<p
-									className={`${styles.paragraph} max-w-[258px] text-start mt-3 flex`}>
-									<div className='w-[23px] h-[23px] bg-primary rounded-full flex justify-center align-center p-1 mr-3'>
-										<img
-											className=''
-											src={checkMark}
-											alt='Check Mark'
-										/>
-									</div>
-									{message}
-								</p>
-							</li>
-						))}
-					</ul>
+					<div className='flex justify-center'>
+						<ul className='columns-2 my-5 '>
+							{chefFacts.map(({ id, message }) => (
+								<li key={id}>
+									<p
+										className={`${styles.paragraph} max-w-[258px] text-start mt-3 flex`}>
+										<div className='w-[24px] h-[24px] bg-primary rounded-full flex justify-center align-center p-1 mr-3'>
+											<img
+												className=''
+												src={checkMark}
+												alt='Check Mark'
+											/>
+										</div>
+										{message}
+									</p>
+								</li>
+							))}
+						</ul>
+					</div>
 				</div>
 				<div className='md:py-10 pt-8 flex flex-row md:self-start self-center'>
 					<Button styles='bg-black mr-8 max-w-[120px] max-h-[54px]'>
@@ -56,7 +58,7 @@ function Chef() {
 					</Button>
 				</div>
 			</div>
-			<div className=''>
+			<div className='flex justify-center md:mt-0 mt-10'>
 				<img
 					className='w-[507px] h-[695px] '
 					src={chef}
