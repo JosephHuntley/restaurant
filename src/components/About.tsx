@@ -32,16 +32,18 @@ function About() {
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt
 					</p>
-					<img
-						className={`${styles.artWork} max-h-[212px] max-w-[224px] absolute sm:left-[278px] left-[-100px] sm:top-[1180px] top-[1400px]`}
-						src={TopRight}
-						alt='Leaf Artwork'
-					/>
-					<img
-						className={`${styles.artWork} max-h-[257px] max-w-[180px] absolute sm:left-[945px] left-[325px] sm:top-[1180px] top-[1375px]`}
-						src={BottomRight}
-						alt='Leaf Artwork'
-					/>
+					<div className=''>
+						<img
+							className={`${styles.artWork} max-h-[212px] max-w-[224px] absolute sm:left-[278px] left-[-100px] sm:top-[1180px] top-[1400px]`}
+							src={TopRight}
+							alt='Leaf Artwork'
+						/>
+						<img
+							className={`${styles.artWork} max-h-[257px] max-w-[180px] absolute sm:left-[945px] left-[325px] sm:top-[1180px] top-[1375px]`}
+							src={BottomRight}
+							alt='Leaf Artwork'
+						/>
+					</div>
 				</div>
 				<Dishes />
 				<div className='flex-row md:flex h-0 hidden'>
