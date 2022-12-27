@@ -35,13 +35,13 @@ function Chef() {
 								<li key={id}>
 									<p
 										className={`${styles.paragraph} max-w-[258px] text-start mt-3 flex`}>
-										<div className='w-[24px] h-[24px] bg-primary rounded-full flex justify-center align-center p-1 mr-3'>
+										<span className='w-[24px] h-[24px] bg-primary rounded-full flex justify-center align-center p-1 mr-3'>
 											<img
 												className=''
 												src={checkMark}
 												alt='Check Mark'
 											/>
-										</div>
+										</span>
 										{message}
 									</p>
 								</li>
