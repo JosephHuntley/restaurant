@@ -19,7 +19,7 @@ function NavMenu() {
 			<div
 				className={`${
 					toggleMenu ? 'flex' : 'hidden'
-				} p-6 right-0 top-24 absolute mx-4 my-2 min-w-[140px] rounded-xl sidebar bg-dimWhite text-white flex-col`}>
+				} p-6 right-0 top-24 absolute mx-4 my-2 min-w-[140px] rounded-xl sidebar bg-secondary text-white flex-col`}>
 				<ul className='list-none flex justify-end items-start flex-1 flex-col '>
 					{navLinks.map((nav, index) => (
 						<li

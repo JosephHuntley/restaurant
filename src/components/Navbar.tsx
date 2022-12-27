@@ -3,6 +3,7 @@ import { navLinks } from '../constants';
 import { logo, circleText } from '../assets';
 
 import NavMenu from './NavMenu';
+import styles from '../styles';
 
 function Navbar() {
 	return (
@@ -32,7 +33,7 @@ function Navbar() {
 					{navLinks.map((nav: { title: string; id: string }, index: number) => (
 						<li
 							key={nav.id}
-							className={`font-normal cursor font-size-[16px] leading-7 font-inter text-dimWhite  ${
+							className={` ${styles.links}  ${
 								index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
 							}`}>
 							<a href={`#${nav.id}`}>{nav.title}</a>

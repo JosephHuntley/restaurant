@@ -35,7 +35,7 @@ function Hero() {
 			{/*=========== Right Side ===============*/}
 			<div className='flex-1 flex  md:my-0 my-3 mt-32 relative justify-center items-center justify-items-center'>
 				<img
-					className='z-10 w-[516px] max-h-[712px] '
+					className='z-10 w-[516px] max-h-[712px]'
 					src={Restaurant}
 					alt='Dining Room'
 				/>

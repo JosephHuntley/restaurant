@@ -20,7 +20,7 @@ function About() {
 	return (
 		<section
 			id='about'
-			className='flex flex-col justify-center bg-dimWhite/[0.07] sm:pb-64 pb-32 mt-24 justify-center text-center px-8 '>
+			className='flex flex-col justify-center bg-secondary/[0.07] sm:pb-64 pb-32 mt-24 justify-center text-center px-8 '>
 			<div className=''>
 				<div className='mt-16 flex flex-col justify center'>
 					<h1
