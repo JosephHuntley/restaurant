@@ -25,6 +25,7 @@ import leaf4 from './leaf-4.png';
 import herbs2 from './herbs2.svg';
 import chef from './Chef.svg';
 import checkMark from './checkMark.svg';
+import pan from './Pan.svg';
 export {
 	logo,
 	circleText,
@@ -53,4 +54,5 @@ export {
 	leaf4,
 	chef,
 	checkMark,
+	pan,
 };
