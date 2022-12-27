@@ -72,3 +72,36 @@ export const chefFacts: { id: number; message: string }[] = [
 
 	{ id: 6, message: 'Lorem ipsum dolor sit amet, consectetur' },
 ];
+
+export const hours: { id: number; day: string; hours: string }[] = [
+	{ id: 1, day: 'Monday-Friday', hours: '8:00 am to 9:00 pm' },
+	{ id: 2, day: 'Saturday', hours: '8:00 am to 11:00 pm' },
+	{ id: 3, day: 'Sunday', hours: 'CLOSED' },
+];
+
+export const footerNav: {
+	id: number;
+	section: string;
+	content: { id: number; title: string; link: string }[];
+}[] = [
+	{
+		id: 1,
+		section: 'Navigation',
+		content: [
+			{ id: 1, title: 'Menu', link: '/menu' },
+			{ id: 2, title: 'About Us', link: '#about' },
+			{ id: 3, title: 'Contact Us', link: '#Contact' },
+			{ id: 4, title: 'Main Dishes', link: '#about' },
+		],
+	},
+	{
+		id: 2,
+		section: 'Dishes',
+		content: [
+			{ id: 1, title: 'Fish & Veggies', link: '/menu/#fish_veggies' },
+			{ id: 2, title: 'Tofu Chili', link: '/menu/#tofu_chili' },
+			{ id: 3, title: 'Egg & Cucumber', link: '/menu/#egg_cucumber' },
+			{ id: 4, title: 'Lumpia w/sauce', link: '/menu/#lumpia_wsauce' },
+		],
+	},
+];
