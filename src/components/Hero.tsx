@@ -14,7 +14,7 @@ function Hero() {
 					className={`${styles.heading} md:text-[70px] text-[50px] max-w-[510px] `}>
 					We provide the best food for you
 				</h1>
-				<p className={`${styles.paragraph} md:pt-16 pt-6  max-w-[376px]`}>
+				<p className={`${styles.paragraph} md:pt-16 pt-6  max-w-[356px]`}>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua.
 				</p>
@@ -35,7 +35,7 @@ function Hero() {
 			{/*=========== Right Side ===============*/}
 			<div className='flex-1 flex md:my-0 my-3 mt-32  relative justify-center items-center justify-items-center'>
 				<img
-					className='z-10 w-[516px] h-[712px] pl-6'
+					className='z-10 w-[516px] h-[612px] pl-6'
 					src={Restaurant}
 					alt='Dining Room'
 				/>
