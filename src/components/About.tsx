@@ -32,14 +32,14 @@ function About() {
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt
 					</p>
-					<div className=''>
+					<div className='flex flex-row h-0'>
 						<img
-							className={`${styles.artWork} max-h-[212px] max-w-[224px] absolute sm:left-[278px] left-[-100px] sm:top-[1180px] top-[1400px]`}
+							className={`${styles.artWork} h-[212px] w-[224px] relative sm:left-[40px] left-[-25px] sm:top-[-155px] top-[-145px]`}
 							src={TopRight}
 							alt='Leaf Artwork'
 						/>
 						<img
-							className={`${styles.artWork} max-h-[257px] max-w-[180px] absolute sm:left-[945px] left-[325px] sm:top-[1180px] top-[1375px]`}
+							className={`${styles.artWork} h-[257px] w-[180px] relative sm:left-[250px] left-[135px] sm:top-[-200px] top-[-200px] sm:flex hidden`}
 							src={BottomRight}
 							alt='Leaf Artwork'
 						/>
