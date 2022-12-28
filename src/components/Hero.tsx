@@ -7,7 +7,7 @@ function Hero() {
 	return (
 		<header
 			id='home'
-			className='md:flex-row flex-col flex py-3 md:pt-[225px] md:px-[125px] px-8 justify-center md:items-start items-center '>
+			className='md:flex-row flex-col flex py-3 md:pt-[225px] md:px-[125px] px-8 justify-center  items-center '>
 			{/*=========== Left Side ===============*/}
 			<div className='flex-1 flex-col xl:px-0 md:pr-16 md:mt-[100px] mt-16 '>
 				<h1
@@ -33,9 +33,9 @@ function Hero() {
 			</div>
 
 			{/*=========== Right Side ===============*/}
-			<div className='flex-1 flex  md:my-0 my-3 mt-32 relative justify-center items-center justify-items-center'>
+			<div className='flex-1 flex md:my-0 my-3 mt-32  relative justify-center items-center justify-items-center'>
 				<img
-					className='z-10 w-[516px] max-h-[712px]'
+					className='z-10 w-[516px] h-[712px] pl-6'
 					src={Restaurant}
 					alt='Dining Room'
 				/>
@@ -45,17 +45,17 @@ function Hero() {
 					alt='Leaf Artwork'
 				/>
 				<img
-					className={`${styles.artWork}  top-[-115px] right-[-100px] absolute`}
+					className={`${styles.artWork}  top-[-115px] right-[-125px] absolute`}
 					src={TopRight}
 					alt='Leaf Artwork'
 				/>
 				<img
-					className=' z-20 md:bottom-[10px] bottom-[-125px] md:left-[-200px] left-[-150px] absolute'
+					className=' z-20 md:bottom-[10px] bottom-[-125px] md:left-[-150px] left-[-150px] absolute'
 					src={Dish}
 					alt='Dish'
 				/>
 				<img
-					className={`${styles.artWork}  md:bottom-[10px] bottom-[-150px] md:rotate-0 rotate-90 right-[-140px] absolute `}
+					className={`${styles.artWork}  md:bottom-[10px] bottom-[-125px] md:rotate-0 rotate-90 right-[-140px] absolute `}
 					src={BottomRight}
 					alt='Leaf Artwork'
 				/>
