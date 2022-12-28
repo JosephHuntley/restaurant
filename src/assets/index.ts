@@ -26,6 +26,7 @@ import herbs2 from './herbs2.svg';
 import chef from './Chef.svg';
 import checkMark from './checkMark.svg';
 import pan from './Pan.svg';
+import cta_bg from './cta-bg.png';
 export {
 	logo,
 	circleText,
@@ -55,4 +56,5 @@ export {
 	chef,
 	checkMark,
 	pan,
+	cta_bg,
 };

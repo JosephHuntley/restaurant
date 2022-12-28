@@ -1,12 +1,34 @@
-import { logo } from '../assets';
+import { logo, cta_bg } from '../assets';
 import styles from '../styles';
 import { hours, footerNav } from '../constants';
 import Socials from './reusable/Socials';
 
 function Footer() {
 	return (
-		<footer className='py-32 flex flex-col px-32 '>
-			<div className='h-0'></div>
+		<footer className='py-52 flex flex-col px-32 '>
+			<div className='h-0'>
+				<div
+					className='h-[407px] w-[1151px] relative top-[-450px] rounded-3xl flex flex-col justify-center items-center'
+					id='cta'>
+					<h2 className='text-white font-davidLibre text-[50px] leading-[58px] font-bold text-center max-w-[804px]'>
+						Get a Promo Code by <br className='md:flex hidden' />
+						Subscribing to our Newsletter
+					</h2>
+					<div className=' mt-10 flex items-center'>
+						<input
+							className='w-[667px] h-[80px] rounded-2xl bg-white p-3 font-inter text-[18px] font-normal leading-22px'
+							type='text'
+							placeholder='Enter Your Email'
+						/>
+						<div className='w-0'>
+							<button className='text-white bg-primary rounded-lg w-[150px] h-[57px] font-inter font-semibold text-[16px] leading-[58px] relative left-[-165px]'>
+								Subscribe
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div className='flex flex-row justify-between'>
 				<div className='flex flex-col'>
 					<div className='flex items-end'>
