@@ -117,11 +117,11 @@ function About() {
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua.
 					</p>
-					<div className='md:py-10 pt-8 flex flex-row md:self-start self-center'>
+					<div className='md:py-10 pt-8 flex flex-row '>
 						<Button styles='bg-black mr-8 max-w-[120px] max-h-[54px]'>
 							Menu
 						</Button>
-						<Button styles='bg-primary z-10 max-w-[167px] max-h-[54px]'>
+						<Button styles='bg-primary z-10 w-[167px] max-h-[54px] '>
 							Book a table
 						</Button>
 					</div>

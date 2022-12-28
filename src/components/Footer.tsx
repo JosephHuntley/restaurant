@@ -5,7 +5,7 @@ import Socials from './reusable/Socials';
 
 function Footer() {
 	return (
-		<footer className='pt-52 flex flex-col  md:px-32 pb-[50px]'>
+		<footer className='pt-52 flex flex-col  md:px-32 pb-[50px] bg-secondary/10 '>
 			<div className='h-0'>
 				<div
 					className='h-[407px] max-w-[1151px]  relative md:top-[-450px] top-[-450px] rounded-3xl flex flex-col justify-center items-center  '
@@ -27,12 +27,6 @@ function Footer() {
 						</div>
 					</div>
 				</div>
-
-				<img
-					className={` ${styles.artWork} w-[1122px] h-[960px] relative top-[-700px] -rotate-90 left-[175px]`}
-					src={pan}
-					alt='Frying Pan'
-				/>
 			</div>
 
 			<div className='flex md:flex-row flex-col  md:justify-between '>

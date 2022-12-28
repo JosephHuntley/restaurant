@@ -27,6 +27,8 @@ import chef from './Chef.svg';
 import checkMark from './checkMark.svg';
 import pan from './Pan.svg';
 import cta_bg from './cta-bg.png';
+import testimonial1 from './Testimonial1.png';
+import testimonial2 from './Testimonial2.png';
 export {
 	logo,
 	circleText,
@@ -57,4 +59,6 @@ export {
 	checkMark,
 	pan,
 	cta_bg,
+	testimonial1,
+	testimonial2,
 };

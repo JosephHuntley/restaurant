@@ -5,7 +5,7 @@ import { chefFacts } from '../constants';
 
 function Chef() {
 	return (
-		<section className='flex sm:flex-row flex-col py-24 justify-center'>
+		<section className='flex sm:flex-row flex-col py-24 mb-44 justify-center'>
 			<div className='flex flex-col sm:mt-32 sm:mr-16t'>
 				<div className='flex flex-row h-0'>
 					<img

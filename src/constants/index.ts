@@ -1,4 +1,12 @@
-import { dish1, dish2, dish3, dish4, price } from '../assets';
+import {
+	dish1,
+	dish2,
+	dish3,
+	dish4,
+	price,
+	testimonial1,
+	testimonial2,
+} from '../assets';
 
 export const navLinks: { id: string; title: string }[] = [
 	{
@@ -103,5 +111,33 @@ export const footerNav: {
 			{ id: 3, title: 'Egg & Cucumber', link: '/menu/#egg_cucumber' },
 			{ id: 4, title: 'Lumpia w/sauce', link: '/menu/#lumpia_wsauce' },
 		],
+	},
+];
+
+export const testimonials: {
+	id: number;
+	img: string;
+	rating: number;
+	message: string;
+	name: string;
+	title: string;
+}[] = [
+	{
+		id: 1,
+		img: testimonial1,
+		rating: 3,
+		message:
+			'Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper ',
+		name: 'Ama Ampomah',
+		title: 'CEO & Founder Inc.',
+	},
+	{
+		id: 2,
+		img: testimonial2,
+		rating: 4,
+		message:
+			'Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper ',
+		name: 'Ama Ampomah',
+		title: 'CEO & Founder Inc.',
 	},
 ];
