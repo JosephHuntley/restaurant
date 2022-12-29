@@ -5,10 +5,10 @@ import Socials from './reusable/Socials';
 
 function Footer() {
 	return (
-		<footer className='pt-52 flex flex-col  md:px-32 pb-[50px] bg-secondary/10 '>
-			<div className='h-0'>
+		<footer className='pt-52 flex flex-col md:px-32 pb-[50px] bg-secondary/10 '>
+			<div className='h-0 self-center'>
 				<div
-					className='h-[407px] max-w-[1151px]  relative md:top-[-450px] top-[-450px] rounded-3xl flex flex-col justify-center items-center  '
+					className='max-h-[407px] lg:min-h-[407px] md:min-h-[307px] min-h-[320px] max-w-[1151px] lg:min-w-[1000px] sm:min-w-[700px] min-w-[200px]   relative md:top-[-450px] top-[-450px] rounded-3xl flex flex-col justify-center items-center  '
 					id='cta'>
 					<h2 className='text-white font-davidLibre md:text-[50px] text-[30px] leading-[58px] font-bold text-center md:max-w-[804px] max-w-[400px]'>
 						Get a Promo Code by <br className='md:flex hidden' />
